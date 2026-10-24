@@ -117,3 +117,25 @@ gap: 16px;
     width: 160px;
 }
 
+/* Quote Section */
+.quote {
+    background-color:#E5E7EB;
+    padding: 64px 24px;
+}
+ .quote-text {
+font-size: 36px;
+font-weight: 300;
+color:#1F2937;
+font-style: italic;
+max-width: 700px;
+margin: 0 auto;
+}
+.quote-author {
+    font-weight: 800;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 16px;
+    text-align: right;
+}
+
+
