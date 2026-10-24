@@ -173,6 +173,16 @@ margin: 0 auto;
     grid-row: 1 /span 2;
     padding: 8px 24px;
 }
-
+ /*footer section*/
+ .footer {
+    padding: 24px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+ }
+ .footer-text {
+    margin: 0 ;
+ }
 
 
