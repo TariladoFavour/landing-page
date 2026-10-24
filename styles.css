@@ -137,5 +137,42 @@ margin: 0 auto;
     margin-top: 16px;
     text-align: right;
 }
+ 
+/*cta section*/
+.cta {
+    padding: 64px 24px;
+}
+.cta-box {
+    background-color: #3882F6;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: grid;
+    padding: 40px 48px;
+    grid-template-columns: 1fr auto;
+    column-gap: 24px;
+}
+.cta-bold, .cta-small {
+    color: white;
+}
+.cta-bold { 
+    font-weight: 600;
+    font-size: 18px;
+}
+.cta-small {
+    font-weight: 300;
+    font-size: 14px;
+}
+.cta button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    grid-column: 2;
+    grid-row: 1 /span 2;
+    padding: 8px 24px;
+}
+
 
 
